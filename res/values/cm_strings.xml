@@ -189,4 +189,14 @@
 
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
     <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+
+    <!-- Dolby -->
+    <string name="dolby_apps_title">Dolby Sound Apps</string>
+    <string name="dolby_effect_title">Dolby Atmos</string>
+    <string name="dolby_mode_intelligence_title">Dynamic</string>
+    <string name="dolby_mode_intelligence_summary">Optimize sound automatically based on what you\'re listening to.</string>
+    <string name="dolby_mode_movie_title">Movie</string>
+    <string name="dolby_mode_movie_summary">Real 3D surround sound and clearer voices.</string>
+    <string name="dolby_mode_music_title">Music</string>
+    <string name="dolby_mode_music_summary">Fuller and more balanced sound.</string>
 </resources>

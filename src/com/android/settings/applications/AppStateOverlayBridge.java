@@ -71,6 +71,7 @@ public class AppStateOverlayBridge extends AppStateAppOpsBridge {
 
         static {
             DISABLE_PACKAGE_LIST.add("com.android.systemui");
+            DISABLE_PACKAGE_LIST.add("com.dolby.daxservice");
         }
 
         public OverlayState(PermissionState permissionState) {

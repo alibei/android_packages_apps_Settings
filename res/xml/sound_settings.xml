@@ -30,6 +30,14 @@
         settings:controller="com.android.settings.notification.RemoteVolumeGroupController">
     </PreferenceCategory>
 
+    <Preference
+        android:icon="@drawable/ic_dolby_logo"
+        android:title="@string/dolby_apps_title"
+        android:key="dlb_dap_settings"
+        android:order="-184"
+        android:fragment="com.android.settings.notification.SoundDolbySettings"
+        settings:controller="com.android.settings.notification.SoundDolbyParentPreferenceController"/>
+
     <!-- Media volume -->
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="media_volume"

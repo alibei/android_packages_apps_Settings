@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/dolby_effect_title"
+    android:key="sound_dolby_settings_screen">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/styled_switch_bar"
+        android:key="sound_dolby_settings_switch"/>
+
+    <PreferenceCategory
+        android:key="sound_dolby_settings_category"/>
+
+</PreferenceScreen>
